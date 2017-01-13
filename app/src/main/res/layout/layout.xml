@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/EText1"
+        android:hint="메세지를 입력하세요."
+        android:inputType="text"
+        android:layout_width="325dp"
+        android:layout_height="350dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border">
+        <requestFocus />
+    </EditText>
+
+        <TextView
+            android:id="@+id/TView1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:textAlignment="viewEnd"
+            android:textSize="15dp"
+            android:text="0 / 80바이트"
+            />
+
+    <LinearLayout
+        android:layout_height="50dp"
+        android:layout_width="match_parent">
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="65dp"
+            android:text="전송"/>
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:text="닫기"/>
+    </LinearLayout>
+</LinearLayout>
